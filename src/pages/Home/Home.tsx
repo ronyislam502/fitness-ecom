@@ -1,8 +1,8 @@
-import Banner from "../../components/ui/Banner";
-import Benefits from "../../components/ui/Benefits";
-import Category from "../../components/ui/Category";
-import FeaturedProduct from "../../components/ui/FeaturedProduct";
-import Gallery from "../../components/ui/Gallery";
+import Banner from "../../components/ui/Home/Banner";
+import Benefits from "../../components/ui/Home/Benefits";
+import Category from "../../components/ui/Home/Category";
+import FeaturedProduct from "../../components/ui/Home/FeaturedProduct";
+import Gallery from "../../components/ui/Home/Gallery";
 
 const Home = () => {
   return (

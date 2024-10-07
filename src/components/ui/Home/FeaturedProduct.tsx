@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import SectionTitle from "../shared/SectionTitle";
-import Loader from "../shared/Loader";
-import Card from "../shared/Card";
+import SectionTitle from "../../shared/SectionTitle";
+// import Loader from "../shared/Loader";
+import Card from "../../shared/Card";
 
 const FeaturedProduct = () => {
   //   const { data, isLoading } = useGetProductsQuery({});

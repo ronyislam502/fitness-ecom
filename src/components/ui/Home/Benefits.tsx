@@ -1,4 +1,4 @@
-import SectionTitle from "../shared/SectionTitle";
+import SectionTitle from "../../shared/SectionTitle";
 
 const Benefits = () => {
   return (

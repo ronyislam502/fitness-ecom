@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SectionTitle from "../shared/SectionTitle";
+import SectionTitle from "../../shared/SectionTitle";
 
 const categories = [
   { label: "Cardio Equipment" },
