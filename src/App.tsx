@@ -1,11 +1,13 @@
-import MainLayout from "./components/layouts/MainLayout";
+import { Outlet } from "react-router-dom";
+import Navbar from "./shared/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-gray-100">
-      <MainLayout />
+    <div>
+      <Navbar />
+      <Outlet />
     </div>
   );
-}
+};
 
 export default App;
