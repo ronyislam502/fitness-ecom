@@ -28,7 +28,7 @@ const Categories = () => {
               className=" w-full h-48 object-cover transform transition duration-500 hover:scale-110"
               src={category.image}
             />
-            <h2 className="text-center text-amber-500 font-bold">
+            <h2 className="text-center text-amber-500 font-bold py-4">
               {category.value}
             </h2>
           </div>
