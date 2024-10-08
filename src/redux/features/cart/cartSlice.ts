@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { TCartInitialState } from "../../../type";
+import { TCartInitialState } from "../../../types";
 
 const initialState: TCartInitialState = {
   items: [],

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { TFiltersInitialState } from "../../../type";
+import { TFiltersInitialState } from "../../../types";
 
 const initialState: TFiltersInitialState = {
   searchTerm: "",

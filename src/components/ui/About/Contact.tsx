@@ -3,7 +3,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
-import SectionTitle from "../../shared/SectionTitle";
+import SectionTitle from "../global/SectionTitle";
 
 const Contact = () => {
   return (

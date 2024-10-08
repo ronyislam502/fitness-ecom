@@ -1,11 +1,15 @@
-import SectionTitle from "../../shared/SectionTitle";
+import SectionTitle from "../global/SectionTitle";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="px-4">
       <SectionTitle title={"About us"} subTitle={"who we are"} />
       <div className="flex lg:flex-row flex-col justify-between gap-x-5 gap-y-5">
-        <img src="" alt="" className="lg:w-[35%] w-full rounded-md" />
+        <img
+          src="https://i.postimg.cc/8kXmsVfn/about1.jpg"
+          alt=""
+          className="lg:w-[35%] w-full rounded-md"
+        />
         <div>
           <h2 className="heading mb-4">History of Fitness Tools</h2>
           <p>
@@ -46,7 +50,7 @@ const AboutUs = () => {
           </div>
         </div>
         <img
-          src=""
+          src="https://i.postimg.cc/PJJbKS94/about2.webp"
           alt=""
           className="lg:w-[35%] w-full rounded-md lg:mt-0 mt-5"
         />

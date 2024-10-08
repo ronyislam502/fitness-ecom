@@ -1,4 +1,4 @@
-import SectionTitle from "../../shared/SectionTitle";
+import SectionTitle from "../global/SectionTitle";
 
 const Team = () => {
   return (
@@ -7,8 +7,8 @@ const Team = () => {
       <div className="flex lg:flex-row flex-col gap-x-5">
         <div className="flex lg:flex-row flex-col gap-x-5 gap-y-5">
           <img
-            src=""
-            alt=""
+            src="https://i.postimg.cc/3NzG1Yg8/h1.webp"
+            alt="images"
             className="lg:w-[250px] lg:h-[300px] object-cover rounded-md"
           />
           <div className="">
@@ -26,7 +26,7 @@ const Team = () => {
         </div>
         <div className="flex lg:flex-row flex-col gap-x-5">
           <img
-            src=""
+            src="https://i.postimg.cc/zXRKBHrV/t1.jpg"
             alt=""
             className="lg:w-[250px] lg:h-[300px] object-cover rounded-md"
           />
@@ -49,7 +49,7 @@ const Team = () => {
       <div className="flex lg:flex-row flex-col gap-5">
         <div className="flex lg:flex-row flex-col gap-x-5 gap-y-5">
           <img
-            src=""
+            src="https://i.postimg.cc/CKJftjj6/h2.webp"
             alt=""
             className="lg:w-[250px] lg:h-[300px] object-cover rounded-md"
           />
@@ -70,7 +70,7 @@ const Team = () => {
         </div>
         <div className="flex lg:flex-row flex-col gap-x-5 gap-y-5">
           <img
-            src=""
+            src="https://i.postimg.cc/vBB6dch8/h5.webp"
             alt=""
             className="lg:w-[250px] lg:h-[300px] object-cover rounded-md"
           />
